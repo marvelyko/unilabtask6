@@ -3,6 +3,8 @@ html,body {
     background-color: #E6E6E6;
 }
 
+/*======================HEADER=========================
+*/
 .conteiner {
     margin: 0 auto;
     max-width: 1170px;
@@ -18,47 +20,6 @@ html,body {
 	top: 0;
 }
 
-.image-wrapper{
-	position: relative;
-	width: 100%
-	margin-top: 0px;
-	padding-top: 95px;
-    max-width: 1170px;
-    width: 100%;
-}
-
-section {
-	margin: 30px auto;
-    max-width: 1170px;
-    width: 100%;
-}
-
-.image-text{
-	position: absolute;
-	left: 30px;
-	bottom: 170px;
-	color: white;
-	font-size: 30px;
-	font-family: Roboto;
-	font-weight: bold;
-}
-.image-text:nth-child(2){
-	bottom: 130px;
-}
-.image-text:nth-child(3){
-	bottom: 90px;
-}
-.image-text:last-child{
-	bottom: 50px;
-}
-
-.banner-logo{
-	position: absolute;
-	bottom: 50px;
-	right: 30px;
-	height: 30px;
-}
-
 
 .logo {
 	display: inline-block;
@@ -66,20 +27,6 @@ section {
 	vertical-align: middle;
 	margin-right: 100px;
 	margin-bottom: 20px;
-}
-
-.blue{
-	
-    background-color: #363E97;
-    height: 500px;
-    max-width: 100%
-}
-
-.blue-conteiner{
-	position: relative;
-	width: 100%;
-	margin: auto;
-	max-width: 1170px;
 }
 
 .navigation{
@@ -116,6 +63,69 @@ section {
 	border: none;
 	padding-right: 0;
 }
+
+
+/*===========================SECTION1===============================
+*/
+section {
+	margin: 30px auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.image-wrapper{
+	position: relative;
+	width: 100%
+	margin-top: 0px;
+	padding-top: 95px;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.image-text{
+	position: absolute;
+	left: 30px;
+	bottom: 170px;
+	color: white;
+	font-size: 30px;
+	font-family: Roboto;
+	font-weight: bold;
+}
+.image-text:nth-child(2){
+	bottom: 130px;
+}
+.image-text:nth-child(3){
+	bottom: 90px;
+}
+.image-text:last-child{
+	bottom: 50px;
+}
+
+.banner-logo{
+	position: absolute;
+	bottom: 50px;
+	right: 30px;
+	height: 30px;
+}
+
+
+/*===========================SECTION2===============================
+*/
+
+.blue{
+    background-color: #363E97;
+    height: 500px;
+    max-width: 100%
+}
+
+.blue-conteiner{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	max-width: 1170px;
+}
+
+
 
 
 section {
@@ -170,11 +180,11 @@ section {
 	left: 25%
 }
 
-.grey{
-	background-color: #BDCCD4;
-    height: 450px;
-    max-width: 100%;
-}
+
+/*===========================SECTION3===============================
+*/
+
+
 
 .grey-conteiner{
 	position: relative;
@@ -183,13 +193,6 @@ section {
 	max-width: 1170px;
 }
 
-.text-title2{
-	color: #3D58A6;
-	font-size: 24px;
-	font-family: Roboto;
-	position: absolute;
-	top: 30px;
-}
 
 
 .grey {
@@ -239,20 +242,6 @@ section {
 	left: 900px;
 }
 
-.heading-box {
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 270px;
-	height: 60px;
-}
-
-.heading-box h3 {
-	margin: 20px;
-	font-size: 22px;
-	font-family: Roboto;
-}
-
 
 
 .news-boxes .pic{
@@ -274,6 +263,10 @@ section {
 	font-size: 22px;
 	font-family: Roboto;
 }
+
+
+/*===========================SECTION4===============================
+*/
 
 .featured {
 	max-width: 100%;
@@ -341,6 +334,8 @@ section {
 
 
 
+/*===============================FOOTER============================
+*/
 .footer-conteiner{
 	max-width: 1170px;
 	width: 100%
